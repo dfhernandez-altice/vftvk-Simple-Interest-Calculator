@@ -32,6 +32,6 @@ function updateRate()
 {
     //Updates rate value every time the range changes
     var rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText=rateval;
+    document.getElementById("rate_val").innerText=rateval + "%";
 }
         
